@@ -114,6 +114,7 @@ int main()
                 }
             } else {
                 // start with main app
+                tr_debug("No update found in candidates");
             }
         }
 
