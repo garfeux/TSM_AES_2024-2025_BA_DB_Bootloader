@@ -20,10 +20,13 @@
         "platform.minimal-printf-set-floating-point-max-decimals": 2,
 		"platform.all-stats-enabled": true ,
         "platform.heap-stats-enabled": true,
-        "platform.stack-stats-enabled": true
+        "platform.stack-stats-enabled": true,
+        "update-client.storage-address": "(MBED_BOOTLOADER_FLASH_BANK_SIZE)",
+        "update-client.storage-size": "(MBED_BOOTLOADER_FLASH_BANK_SIZE)",
+        "update-client.storage-locations": 2
       },
       "DISCO_H747I": {
-        "mbed-trace.enable": false,
+        "mbed-trace.enable": true,
         "mbed-trace.max-level": "TRACE_LEVEL_DEBUG",
         "target.restrict_size": "0x20000"
       }
