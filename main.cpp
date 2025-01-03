@@ -17,7 +17,7 @@ static void boot_debug(const char *s)
 }
 #endif
 
-int main_initial()
+int main()
 {
 #if MBED_CONF_MBED_TRACE_ENABLE
     mbed_trace_init();
